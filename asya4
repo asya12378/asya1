@@ -1,1 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вкусная еда</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Шапка сайта -->
+    <header>
+
+        <div class="logo">
+            <h2>Вкусная <span>еда.</span></h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#offers">Предложения</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+              </div>
+              
+            </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Главный экран -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="small-title">СВЕЖАЯ И ВКУСНАЯ ЕДА</p>
+
+                <h1>
+                    Погрузитесь в мир
+                    <span>вкусной еды</span>
+                </h1>
+
+                <p>
+                    Каждое блюдо — это история кулинарного
+                    мастерства и настоящей любви к еде.
+                    Мы готовим с заботой о каждом клиенте.
+                </p>
+
+                <div class="hero-buttons">
+                    <button>Заказать сейчас</button>
+                    <a href="#menu">▶ Смотреть меню</a>
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="cvejiysalat.jpg" alt="Свежий овощной салат">
+            </div>
+
+        </section>
+         <!-- Популярные категории -->
+        <section class="categories">
+
+            <p class="small-title">ВЫБОР НАШИХ КЛИЕНТОВ</p>
+
+            <h2>Популярные категории</h2>
+
+            <div class="categories-container">
+
+                <div class="category-card">
+                    <img src="osnovnye.jpg" alt="Основные блюда">
+                    <h3>Основные блюда</h3>
+                    <p>86 блюд</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="zavtrak.jpg" alt="Завтраки">
+                    <h3>Завтраки</h3>
+                    <p>12 завтраков</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="deserty.jpg" alt="Десерты">
+                    <h3>Десерты</h3>
+                    <p>48 десертов</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="vcebluda.jpg" alt="Все блюда">
+                    <h3>Все блюда</h3>
+                    <p>все меню</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Наше меню -->
+        <section class="dishes" id="menu">
+
+            <p class="small-title">ОСОБЕННЫЕ БЛЮДА</p>
+
+            <h2>Лучшие блюда из нашего меню</h2>
+
+            <div class="dishes-container">
+
+                <div class="dish-card">
+                    <img src="cvejiysalat.jpg" alt="Овощной салат">
+
+                    <h3>Свежий салат</h3>
+
+                    <p>Вкусный салат из свежих овощей.</p>
+
+                    <strong>240 сом</strong>
+
+                    <span>⭐ 4.6</span>
+                </div>
+
+
+                <div class="dish-card">
+                    <img src="zelenuy.jpg" alt="Зелёный салат">
+
+                    <h3>Зелёный салат</h3>
+
+                    <p>Полезное и вкусное блюдо.</p>
+
+                    <strong>260 сом</strong>
+
+                    <span>⭐ 4.8</span>
+                </div>
+
+
+                <div class="dish-card">
+                    <img src="legkiy.jpg" alt="Лёгкий салат">
+
+                    <h3>Лёгкий салат</h3>
+
+                    <p>Свежие продукты и отличный вкус.</p>
+
+                    <strong>230 сом</strong>
+
+                    <span>⭐ 4.9</span>
+                </div>
+
+            </div>
+
+        </section>
+         <!-- Отзывы клиентов -->
+        <section class="testimonials">
+
+            <div class="chef-image">
+                <img src="povar.png" alt="Наш повар">
+            </div>
+
+            <div class="testimonial-content">
+
+                <p class="small-title">ОТЗЫВЫ КЛИЕНТОВ</p>
+
+                <h2>Что наши клиенты говорят о нас</h2>
+
+                <p>
+                    Мы каждый день стараемся готовить
+                    вкусную и полезную еду. Наши клиенты
+                    всегда остаются довольны качеством
+                    блюд и нашим обслуживанием.
+                </p>
+
+                <h3>⭐ Отзывы покупателей</h3>
+
+                <p>4.9 из 5 (18 600 отзывов)</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Наши услуги -->
+        <section class="services" id="services">
+
+            <div class="services-content">
+
+                <p class="small-title">НАШИ УСЛУГИ</p>
+
+                <h2>Наш кулинарный путь и наши услуги</h2>
+
+                <p>
+                    Мы с любовью готовим вкусные блюда
+                    и предлагаем качественное обслуживание
+                    каждому нашему клиенту.
+                </p>
+
+                <button>Подробнее</button>
+
+            </div>
+
+
+            <div class="services-container">
+
+                <div class="service-card">
+                    <h3>🍽 Кейтеринг</h3>
+                    <p>Организация питания для ваших мероприятий.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>🚚 Быстрая доставка</h3>
+                    <p>Доставляем любимые блюда прямо к двери.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>🛒 Онлайн-заказ</h3>
+                    <p>Заказывайте любимую еду через интернет.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>🎁 Подарочные карты</h3>
+                    <p>Порадуйте близких вкусным подарком.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Подвал сайта -->
+    <footer>
+
+        <div class="footer-logo">
+
+            <h2>Вкусная <span>еда.</span></h2>
+
+            <p>Наслаждайтесь вкусом каждого блюда!</p>
+
+        </div>
+
+
+        <div>
+            <h3>Полезные ссылки</h3>
+
+            <a href="#home">О нас</a>
+            <a href="#menu">Наше меню</a>
+            <a href="#services">Наши услуги</a>
+        </div>
+
+
+        <div>
+            <h3>Главное меню</h3>
+
+            <a href="#home">Главная</a>
+            <a href="#menu">Меню</a>
+            <a href="#services">Услуги</a>
+        </div>
+
+
+        <div>
+            <h3>Контакты</h3>
+
+            <a href="mailto:example@email.com">example@email.com</a>
+            <a href="tel:+996555123456">+996 222 214 999</a>
+            <a href="#">Кыргызстан</a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
