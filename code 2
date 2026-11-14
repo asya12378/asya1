@@ -1,0 +1,430 @@
+* Общие настройки */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+button {
+    background-color: #39c957;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #249d3c;
+}
+
+
+/* Шапка сайта */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+.logo h2 {
+    font-size: 25px;
+}
+
+.logo span {
+    color: #39c957;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #39c957;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-actions a {
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+}
+
+
+/* Главный экран */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 500px;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-content h1 span {
+    color: #39c957;
+}
+
+.hero-content p {
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.small-title {
+    color: #39c957;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-buttons a {
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+/* Категории */
+
+.categories {
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.category-card {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+.category-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.category-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.category-card p {
+    color: #888;
+    font-size: 12px;
+}
+
+
+/* Блюда */
+
+.dishes h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.dishes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.dish-card {
+    padding: 15px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+.dish-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.dish-card h3 {
+    margin-bottom: 10px;
+}
+
+.dish-card p {
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.dish-card strong {
+    color: #222;
+}
+
+.dish-card span {
+    float: right;
+    color: #e5b800;
+}
+
+
+/* Отзывы */
+
+.testimonials {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.chef-image {
+    width: 50%;
+}
+
+.chef-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.testimonial-content {
+    width: 50%;
+}
+
+.testimonial-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.testimonial-content p {
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.testimonial-content h3 {
+    margin-top: 20px;
+}
+
+
+/* Услуги */
+
+.services {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.services-content {
+    width: 50%;
+}
+
+.services-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.services-content p {
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.services-container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    padding: 25px 15px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+.service-card h3 {
+    color: #39c957;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #777;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+/* Подвал */
+
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 50px 8%;
+    border-top: 1px solid #eee;
+}
+
+.footer-logo h2 {
+    margin-bottom: 15px;
+}
+
+.footer-logo span {
+    color: #39c957;
+}
+
+footer h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #777;
+    font-size: 13px;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+footer a:hover {
+    color: #39c957;
+}
+
+
+/* Для телефона */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .categories-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dishes-container {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .chef-image,
+    .testimonial-content {
+        width: 100%;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .services-content,
+    .services-container {
+        width: 100%;
+    }
+
+    footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
